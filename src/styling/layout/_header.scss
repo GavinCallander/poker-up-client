@@ -1,0 +1,21 @@
+.header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    &_nav {
+        display: none;
+        &_active {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: right;
+        }
+        &_link {
+            padding: 0 0.5rem;
+            text-decoration: none;
+        }
+    }
+    &_title {
+        width: 85%;
+    }
+}
