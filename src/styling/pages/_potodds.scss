@@ -1,0 +1,25 @@
+.potodds {
+    &_header {
+        margin: 0 auto;
+        width: 90%;
+    }
+    &_input {
+        width: 18vw;
+        height: 7vh;
+        text-align: center;
+        border: 1px solid red;
+        border-radius: 10px;
+        &_section {
+            margin: 0 auto;
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &_main {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
