@@ -31,10 +31,10 @@ export const Header = () => {
                 <FontAwesomeIcon className='header_menu' icon={icon} onClick={handleClick} size='3x' />
             </div>
             <div className={`header_nav ${navClassName}`}>
-                <Link className={`header_nav_link ${navLinkClassName}`} to={ROUTES.LANDING}>Home</Link>
-                <Link className={`header_nav_link ${navLinkClassName}`} to={ROUTES.CHART}>Hand Chart</Link>
-                <Link className={`header_nav_link ${navLinkClassName}`} to={ROUTES.POTODDS}>Pot Odds Calculator</Link>
-                <Link className={`header_nav_link ${navLinkClassName}`} to={ROUTES.RANGES}>Range Calculator</Link>
+                <Link className={`header_nav_link ${navLinkClassName}`} onClick={handleClick} to={ROUTES.LANDING}>Home</Link>
+                <Link className={`header_nav_link ${navLinkClassName}`} onClick={handleClick} to={ROUTES.CHART}>Hand Chart</Link>
+                <Link className={`header_nav_link ${navLinkClassName}`} onClick={handleClick} to={ROUTES.POTODDS}>Pot Odds Calculator</Link>
+                <Link className={`header_nav_link ${navLinkClassName}`} onClick={handleClick} to={ROUTES.RANGES}>Range Calculator</Link>
             </div>
         </div>
     )

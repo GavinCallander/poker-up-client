@@ -2,13 +2,24 @@
 
 .body {
     &_one {
-
+        font-family: 'Varela', sans-serif;
+        font-size: 1.3rem;
+    }
+    &_two {
+        font-family: 'Varela', sans-serif;
+        font-size: 1.1rem;
     }
 };
 
 .heading {
     &_one {
         font-family: 'Varela', sans-serif;
-        font-size: 30px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    &_two {
+        font-family: 'Varela', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
     }
 }
